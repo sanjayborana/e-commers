@@ -4,5 +4,17 @@
 	<author>Ecom</author>
 	<namespace>ecom</namespace>
 
-	<entity name=""></entity>
+	<entity name="Shoppingcart" local-service="true" remote-service="true" >
+        
+        <column name="cartId" type="long" primary="true" />
+        <column name="groupId" type="long" />
+        <column name="companyId" type="long" />
+        <column name="userId" type="long" />
+        <column name="userName" type="String" />
+        <column name="createDate" type="Date" />
+        <column name="modifiedDate" type="Date" />
+        <column name="itemId" type="long"  />
+	
+     </entity>
+  
 </service-builder>
