@@ -11,4 +11,5 @@
 			<resolver ref="liferay-public" />
 		</chain>
 	</resolvers>
+	
 </ivysettings>
